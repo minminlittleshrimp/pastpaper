@@ -1,0 +1,29 @@
+TITLE Data representation
+LANG en
+AUTHOR Minh Luu
+
+QUESTION Condition 9618_w22_qp_32
+Normalised floating-point numbers are stored in a computer system using two’s complement for
+both the mantissa and the exponent with:
+- 11 bits for the mantissa
+- 5 bits for the exponent
+
+QUESTION Floating point
+Write the largest positive two’s complement binary number that can be stored in this system
+\
+Ans: Mantissa Exponent
+- Mantissa: %"01111111111"
+- Exponent: %"01111"
+\
+QUESTION Denary
+Calculate the denary value of the given binary floating-point number. Show your working.
+- Mantissa: "10110010011"
+- Exponent: "01001"
+\
+Ans: Denary
+- %"–310.5"
+\
+QUESTION Explanation
+State when underflow occurs in a binary floating-point system.
+- Following a %"logical" operation
+- The result is too %"small" to be %"precisely" represented in the available system

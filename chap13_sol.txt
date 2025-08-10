@@ -1,9 +1,0 @@
-9618_s21_qp_31:
-a.
-- Mantissa: "1000110000"
-- Exponent: "000011"
-b.
-- Denary: "-78.25"
-c.
-- Mantissa: "0111000000"
-- Exponent: "100001"

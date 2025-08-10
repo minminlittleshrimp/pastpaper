@@ -1,0 +1,45 @@
+TITLE Data representation
+LANG en
+AUTHOR Minh Luu
+
+QUESTION Same condition 9618_s21_qp_31, 32, 33
+Real numbers are stored in a computer system using floating-point representation with:
+- 10 bits for the mantissa
+- 6 bits for the exponent
+- Two’s complement form for both the mantissa and the exponent.
+
+QUESTION Floating point
+Calculate the normalised floating-point representation of –7.25 in this system.
+Show your working.
+\
+Ans: Mantissa Exponent
+- Mantissa: %"1000110000"
+- Exponent: %"000011"
+\
+QUESTION Denary
+Calculate the denary value of the given binary floating-point number. Show your working.
+- Mantissa: "1011000111"
+- Exponent: "000111"
+\
+Ans: Denary
+- %"-78.25"
+\
+QUESTION Normalisation
+The given binary floating-point number is not normalised. Normalise the floating-point number. Show your working.
+- Mantissa: "0000000111"
+- Exponent: "100111"
+\
+Ans: Normalised Data
+- Mantissa: %"0111000000"
+- Exponent: %"100001"
+\
+QUESTION Explanation
+The denary number 513 cannot be stored accurately as a normalised floating-point number in this computer system.
+\
+i. Explain the reason for this:
+- Requires %"11" bits to store accurately maximum %"positive" number that can be stored (%"511")
+- Denary 513 in binary is %"1000000001" and it is normalised: %"0.1000000001" result in %"overflow"
+\
+ii. Describe an alteration to the way floating-point numbers are stored to enable this number to be stored accurately using the same total number of bits.
+- The number of bits for the %"mantissa" must be %"increased"
+- %"11"/12 bits %"mantissa" and %"5"/4 bits %"exponent" (total %"16" bits)

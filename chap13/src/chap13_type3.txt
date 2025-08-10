@@ -1,0 +1,37 @@
+TITLE Data representation
+LANG en
+AUTHOR Minh Luu
+
+QUESTION Condition 9618_w22_qp_31, 33
+Real numbers are stored in a computer system using floating-point representation with:
+- 8 bits for the mantissa
+- 8 bits for the exponent
+- Two’s complement form for both the mantissa and the exponent.
+
+QUESTION Floating point
+Write the normalised floating-point representation of +202 in this system.
+Show your working.
+\
+Ans: Mantissa Exponent
+- Mantissa: %"01100101"
+- Exponent: %"00001000"
+\
+QUESTION Normalisation
+Write the normalised floating-point representation of –202 in this system. Show your working.
+\
+Ans: Normalised Data
+- Mantissa: %"10011011"
+- Exponent: %"00001000"
+\
+QUESTION Explanation
+A binary number is stored in the computer system
+- Mantissa: "00011110"
+- Exponent: "00011000"
+State why the number is not normalised.
+- The mantissa does not begin with %"01"/%"10" (as its %"most" significant bits)
+\
+Write the normalised floating-point representation of the number.
+\
+Ans: Normalised Data
+- Mantissa: %"01111000"
+- Exponent: %"00010110"

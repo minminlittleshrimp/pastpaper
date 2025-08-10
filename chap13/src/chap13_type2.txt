@@ -1,0 +1,28 @@
+TITLE Data representation
+LANG en
+AUTHOR Minh Luu
+
+QUESTION Condition 9618_w21_qp_31, 32
+Numbers are stored in a computer using floating-point representation with:
+- 12 bits for the mantissa
+- 4 bits for the exponent
+- two’s complement form for both the mantissa and exponent.
+
+QUESTION Normalised floating point
+Write the normalised floating-point representation of the following unsigned binary number using this system.
+\
+1011100.011001
+Ans: Mantissa Exponent
+- Mantissa: %"010111000110"
+- Exponent: %"0111"
+\
+QUESTION Consequence & Justification
+State the consequence of storing the binary number in above part as a floating-point number in this system. Justify your answer.
+- The %"precision" of the number would be %"reduced"
+- The original number had %"13" bits / %"14" bits with sign but the mantissa can only store %"12" bits
+\
+QUESTION Explanation
+Explain the reason why binary numbers are stored in normalised form:
+- To store the %"maximum range" of numbers in the %"minimum number" of bytes
+- Normalisation %"minimises" the number of "leading" zeros/ones represented
+- Avoids the possibility of many numbers having %"multiple" representations
