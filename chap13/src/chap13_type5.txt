@@ -1,0 +1,32 @@
+TITLE Data representation
+LANG en
+AUTHOR Minh Luu
+
+QUESTION Condition 9618_s23_qp_31
+Numbers are stored in two different computer systems by using floating-point representation.
+System 1 uses:
+- 10 bits for the mantissa
+- 6 bits for the exponent
+- two’s complement form for both the mantissa and the exponent.
+System 2 uses:
+- 8 bits for the mantissa
+- 8 bits for the exponent
+- two’s complement form for both the mantissa and the exponent
+
+QUESTION Floating point
+Calculate the normalised floating-point representation of 113.75 and show how it would be represented in each of these two systems. Show your working.
+\
+Ans:
+\
+System 1:
+- Mantissa: %"0111000111"
+- Exponent: %"000111"
+\
+System 2:
+- Mantissa: %"01110001"
+- Exponent: %"00000111"
+\
+QUESTION Explanation
+Explain the problem that occurred in above part when representing the number in system 2.
+- The %"mantissa" in system 2 does not have enough %"bits" to store the whole binary number (%"10" bits required and only %"8" bits available)
+- %"Precision" is lost and the number is %"truncated"
